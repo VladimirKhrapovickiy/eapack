@@ -1,0 +1,130 @@
+.product-item .product-header {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    left: 1rem;
+    z-index: 1;
+}
+
+.product-item .product-header .item-icons {
+    position: static;
+}
+
+.item-not-available {
+    padding: 0.25rem 0.5rem;
+    margin-top: 0.5rem;
+    background-color: var(--bs-warning);
+    width: max-content;
+    font-size: 0.875rem;
+}
+
+.product-item.product-not-available .item-image img {
+    filter: grayscale(1);
+}
+iframe { width: 100%; height: auto; aspect-ratio: 16/9; }
+video { width: 100%; height: auto; aspect-ratio: 16/9; }
+blockquote{
+    padding-left: 2rem;
+    border-left: 4px solid #50a6b3;
+    margin: 2rem 0;
+}
+
+.spec{
+    background:#333;
+    padding:2rem;
+    color:#fff;
+}
+.footer-form{
+    display: flex ;
+}
+.footer-form-input{
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+    height: 52px;
+    border: none;
+    background-color: rgba(255, 255, 255, .8);
+    color: #000;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font: 16px var(--b24-font-family);
+    letter-spacing: -0.3px;
+    padding: 10px;
+    font-family: Gilroy;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    box-sizing: border-box;
+    border:3px solid rgba(211, 211, 211, .8);
+}
+.footer-form-input:focus{
+    outline: none;
+    border:3px solid rgba(106, 179, 190, 1);
+}
+.footer-form-btn{
+    margin-left: -4px;
+    height: 52px;
+    background-color:rgba(106, 179, 190, 1);
+    border: none;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+    color: #ffff;
+    transition: all 0.3s ease-in;
+    font-family: Gilroy;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-form-btn:hover{
+    background-color:rgb(141, 204, 214);
+    
+}
+.footer-form-agreement{
+    font-size: 11px;
+    line-height: 1;
+}
+.inner-sub-form{
+    display: flex;
+    align-items:center;
+    border-radius: 5px;
+}
+.inner-sub-form__form{
+    display: flex;
+}
+.inner-sub-form{
+    background-image:url("/assets/images/form-bg.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    padding-left: 1rem;
+}
+.inner-sub-form__input{
+    height: 50px;
+    width: 280px;
+    border-top-left-radius:7px;
+    border-bottom-left-radius:7px;
+    padding: 15px;
+    border-right: none;
+}
+.inner-sub-form__input:focus{
+    outline: none;
+}
+.inner-sub-form__btn{
+    background-color:rgba(106, 179, 190, 1);
+    color: #ffff;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-left: none;
+}
+.inner-sub-form__btn:hover{
+    background-color:rgb(78, 141, 151);
+}
+.inner-sub-form__title{
+    font-weight: 600;
+    font-size: 24;
+    max-width: 400px;
+}
+.inner-sub-form__text{
+    font-weight: 500;
+    max-width: 400px;
+}
