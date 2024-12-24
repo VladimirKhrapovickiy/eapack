@@ -35,7 +35,7 @@ blockquote{
     color:#fff;
 }
 .footer-form{
-    display: flex ;
+    max-width: 300px;
 }
 .footer-form-input{
     border-top-left-radius:4px;
@@ -54,6 +54,8 @@ blockquote{
     line-height: 1.5;
     box-sizing: border-box;
     border:3px solid rgba(211, 211, 211, .8);
+    width: 55%;
+    max-width: 175px;
 }
 .footer-form-input:focus{
     outline: none;
@@ -87,6 +89,7 @@ blockquote{
 }
 .inner-sub-form__form{
     display: flex;
+    margin-bottom: 0;
 }
 .inner-sub-form{
     background-image:url("/assets/images/form-bg.png");
@@ -97,7 +100,7 @@ blockquote{
 }
 .inner-sub-form__input{
     height: 50px;
-    width: 280px;
+    max-width: 280px;
     border-top-left-radius:7px;
     border-bottom-left-radius:7px;
     padding: 15px;
@@ -122,9 +125,47 @@ blockquote{
 .inner-sub-form__title{
     font-weight: 600;
     font-size: 24;
-    max-width: 400px;
 }
 .inner-sub-form__text{
     font-weight: 500;
     max-width: 400px;
+}
+.inner-sub-form__agreement{
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+    .inner-sub-form{
+        height: auto;
+        padding: 1rem;
+    }
+    .inner-sub-form{
+        flex-direction: column;
+    }
+    .inner-sub-form__input{
+        width: 100%;
+    }
+    .inner-sub-form__form{
+        width: 100%;
+        max-width: 400px;
+    }
+}
+@media (max-width: 450px) {
+    .inner-sub-form__title{
+        font-size: 20;
+        max-width: 100%;
+    }
+    .inner-sub-form__text{
+        max-width: 100%;
+    }
+    .inner-sub-form{
+        height: auto;
+    }
+    .inner-sub-form{
+        padding: 1rem;
+    }
+    .inner-sub-form__btn{
+        font-size: 12px;
+    }
 }

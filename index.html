@@ -384,10 +384,13 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"41"
         <h4 class="inner-sub-form__title">Получай актуальные новости и лучшие преддложения</h4>
         <p class="inner-sub-form__text">Подпишись на рассылку и узнай первым о новых продуктах и услугах</p>
     </div>
-    <form action="" class="inner-sub-form__form">
-        <input type="tel" class="inner-sub-form__input" placeholder="Номер телефона">
-        <button class="inner-sub-form__btn">Подписаться</button>
-    </form>
+    <div class="d-flex flex-column">
+        <form action="" class="inner-sub-form__form">
+            <input type="tel" class="inner-sub-form__input" placeholder="Введите ваш email">
+            <button class="inner-sub-form__btn">Подписаться</button>
+        </form>
+        <span class="inner-sub-form__agreement">Нажимая кнопку «Подписаться», я даю свое согласие на обработку моих персональных данных</span>
+    </div>
 </div>
 
 <p>Больше оборудования и оснастки известных производителей можно найти на нашем сайте <a href="https://eapack.ru/">eapack.ru</a> в разделе <a href="https://eapack.ru/oborudovanie">«Оборудование»</a>.</p>
@@ -544,8 +547,8 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"41"
                 <div class="col-12 col-lg-4 col-xxl-3">
                     <div class="footer-form-wrapper">
                         <div class="fw-bold fs-8 mb-4">Подпишитесь</div>
-                        <form action="footer-form">
-                            <input type="text" class="footer-form-input mb-2" id="footer-form-input" placeholder="Номер телефона">
+                        <form action="" class="footer-form">
+                            <input type="text" class="footer-form-input mb-2" id="footer-form-input" placeholder="Ваш email">
                             <button class="footer-form-btn" type="submit">Подписаться</button>
                             <span class="footer-form-agreement">Подписываясь на рассылку, я даю согласие на обработку персональных данных и на получение рекламных сообщений и новостей о  товарах и услугах.</span>
                         </form>
