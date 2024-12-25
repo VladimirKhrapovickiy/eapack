@@ -81,23 +81,24 @@ blockquote{
 .footer-form-agreement{
     font-size: 11px;
     line-height: 1;
+    font-weight: 200;
 }
 .inner-sub-form{
     display: flex;
     align-items:center;
     border-radius: 5px;
+    border: 2px solid rgba(106, 179, 190, 1);
+    height: 150px;
+    padding-left: 1rem;
 }
 .inner-sub-form__form{
     display: flex;
     margin-bottom: 0;
 }
-.inner-sub-form{
-    background-image:url("/assets/images/form-bg.png");
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 150px;
-    padding-left: 1rem;
+.inner-sub-form__right{
+    max-width: 360px;
 }
+
 .inner-sub-form__input{
     height: 50px;
     max-width: 280px;
@@ -167,5 +168,99 @@ blockquote{
     }
     .inner-sub-form__btn{
         font-size: 12px;
+    }
+}
+.ml-1000{
+    margin-right: -1000px;
+}
+.popup-sub{
+    width: 800px;
+    background-image: url("../images/popup_sub_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius:40px;
+    padding: 34px 53px;
+    z-index: 99999;
+    transition: all 0.4s ease-out;
+}
+.popup-sub__close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 55px;
+    cursor: pointer;
+}
+.popup-sub__img{
+    position: absolute;
+    width: 55%;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    transform: translateY(12px) translateX(10px);
+}
+.popup-sub__title{
+    font-size: 28px;
+    margin-bottom: 5px;
+    z-index: 3;
+}
+.popup-sub__text{
+    max-width: 585px;
+    font-size: 18px;
+    z-index: 3;
+}
+.popup-sub__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    gap: 20px;
+    position: relative;
+    z-index: 3;
+    input{
+        padding: 12px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color:rgba(255, 255, 255, .85);
+        border: 1px solid gray;
+    }
+    input:focus{
+        border: none;
+        outline: none;
+    }
+    button{
+        background-color: #ffff;
+        border: none;
+        color: #000000;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 5px;
+        border-radius: 10px;
+        background-color:rgba(255, 255, 255, .85);
+        border: 1px solid gray;
+    }
+}
+.popup-sub__agreement{
+    font-size: 14px;
+    max-width: 350px;
+    position: relative;
+    z-index: 3;
+}
+@media (max-width: 768px) {
+    .popup-sub{
+        width: 450px;
+    }
+    .popup-sub__img{
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .popup-sub{
+        width: 300px;
+    }
+    .popup-sub__img{
+        width: 100%;
     }
 }

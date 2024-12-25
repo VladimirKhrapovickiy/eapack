@@ -112,7 +112,20 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"41"
 --b24-primary-hover-color: rgba(106, 179, 190, 0.7);
 				}</style><link type="text/css" rel="stylesheet" href="https://eapack.bitrix24.ru/bitrix/js/imopenlines/widget/styles.min.css?r=1733839760-52"><script type="text/javascript" async="" charset="UTF-8" src="https://eapack.bitrix24.ru/bitrix/js/imopenlines/widget/script.min.js?r=1733839760-52"></script></head>
 
-<body><div></div><div>
+<body>
+    <div class="popup-sub ml-1000">
+        <img src="./assets/images/close.png" alt="крестик" class="popup-sub__close">
+        <img src="./assets/images/popup_sub.png" alt="" class="popup-sub__img">
+        <div class="popup-sub__title fw-bold">Подпишитесь на рассылку</div>
+        <p class="popup-sub__text">чтобы быть в курсе наших новостей и раньше всех получать полезные материалы</p>
+        <form action="" class="popup-sub__form">
+            <input type="text" class="popup-sub__input" placeholder="Имя">
+            <input type="text" class="popup-sub__input" placeholder="E-mail">
+            <button type="submit">Подписаться</button>
+        </form>
+        <p class="popup-sub__agreement">Нажимая кнопку «Подписаться», Вы даете свое согласие на обработку своих персональных данных</p>
+    </div>
+    <div>
 <div>
 	<div data-b24-crm-button-shadow="" class="b24-widget-button-shadow"></div>
 	<div style="display: none;">
@@ -379,17 +392,17 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"41"
 <p>Компания LongliTech (прежде —&nbsp; GYLongli) имеет более чем 20-летний опыт работы в области фармацевтического оборудования. Продукты компании широко применяются в фармацевтике, здравоохранении, пищевой и химической промышленностях и т.д.</p>
 
 <p>• • •</p>
-<div class="inner-sub-form">
+<div class="inner-sub-form mb-4">
     <div class="inner-sub-form__info">
-        <h4 class="inner-sub-form__title">Получай актуальные новости и лучшие преддложения</h4>
-        <p class="inner-sub-form__text">Подпишись на рассылку и узнай первым о новых продуктах и услугах</p>
+        <h4 class="inner-sub-form__title">Подпишитесь на нашу рассылку</h4>
+        <p class="inner-sub-form__text">Отправляем только полезные материалы, анонсы мероприятий и вктуальные предложения</p>
     </div>
-    <div class="d-flex flex-column">
+    <div class="d-flex flex-column inner-sub-form__right">
         <form action="" class="inner-sub-form__form">
             <input type="tel" class="inner-sub-form__input" placeholder="Введите ваш email">
             <button class="inner-sub-form__btn">Подписаться</button>
         </form>
-        <span class="inner-sub-form__agreement">Нажимая кнопку «Подписаться», я даю свое согласие на обработку моих персональных данных</span>
+        <span class="inner-sub-form__agreement">Нажимая кнопку «Подписаться», Вы даете свое согласие на обработку своих персональных данных</span>
     </div>
 </div>
 
@@ -546,7 +559,7 @@ window.b24form.Loader.run({"form":{"usedBySiteButton":true,"lang":"ru","id":"41"
                 </div>
                 <div class="col-12 col-lg-4 col-xxl-3">
                     <div class="footer-form-wrapper">
-                        <div class="fw-bold fs-8 mb-4">Подпишитесь</div>
+                        <div class="fw-bold fs-8 mb-4">Подпишитесь на рассылку</div>
                         <form action="" class="footer-form">
                             <input type="text" class="footer-form-input mb-2" id="footer-form-input" placeholder="Ваш email">
                             <button class="footer-form-btn" type="submit">Подписаться</button>
