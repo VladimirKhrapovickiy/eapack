@@ -90,6 +90,7 @@ blockquote{
     border: 2px solid rgba(106, 179, 190, 1);
     height: 150px;
     padding-left: 1rem;
+    justify-content: space-around;
 }
 .inner-sub-form__form{
     display: flex;
@@ -185,6 +186,7 @@ blockquote{
     padding: 34px 53px;
     z-index: 99999;
     transition: all 0.4s ease-out;
+    border: 3px solid black;
 }
 .popup-sub__close{
     position: absolute;
