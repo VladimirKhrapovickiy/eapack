@@ -95,13 +95,10 @@ blockquote{
     display: flex;
     margin-bottom: 0;
 }
-.inner-sub-form{
-    background-image:url("../images/form-bg.png");
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 150px;
-    padding-left: 1rem;
+.inner-sub-form__right{
+    max-width: 360px;
 }
+
 .inner-sub-form__input{
     height: 50px;
     max-width: 280px;
