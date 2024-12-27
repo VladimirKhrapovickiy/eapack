@@ -95,7 +95,7 @@ blockquote{
 }
 .inner-sub-form__form{
     display: flex;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 }
 .inner-sub-form__right{
     max-width: 340px;
