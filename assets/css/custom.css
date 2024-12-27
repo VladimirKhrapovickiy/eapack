@@ -91,13 +91,15 @@ blockquote{
     height: 150px;
     padding-left: 1rem;
     justify-content: space-around;
+    padding: 1rem;
 }
 .inner-sub-form__form{
     display: flex;
     margin-bottom: 0;
 }
 .inner-sub-form__right{
-    max-width: 360px;
+    max-width: 340px;
+    padding-top: 14px;
 }
 
 .inner-sub-form__input{
@@ -131,6 +133,7 @@ blockquote{
 .inner-sub-form__text{
     font-weight: 500;
     max-width: 400px;
+    margin-bottom: 0;
 }
 .inner-sub-form__agreement{
     font-size: 10px;
@@ -141,6 +144,8 @@ blockquote{
     .inner-sub-form{
         height: auto;
         padding: 1rem;
+        align-items: baseline;
+        padding: 1rem 4rem;
     }
     .inner-sub-form{
         flex-direction: column;
@@ -151,6 +156,9 @@ blockquote{
     .inner-sub-form__form{
         width: 100%;
         max-width: 400px;
+    }
+    .inner-sub-form__text{
+        margin-bottom: 1rem;
     }
 }
 @media (max-width: 450px) {
