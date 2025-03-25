@@ -301,6 +301,7 @@ blockquote{
     left: 50%;
     top: 50%;
     transform: translateY(-50%) translateX(-50%);
+    width: 700px;
 }
 .popup-sub-link__close{
     position: absolute;
@@ -308,7 +309,8 @@ blockquote{
     right: 1rem;
     width: 2rem;
     height: 2rem;
-}
+    cursor: pointer;
+} 
 .popup-sub-link__title{
     font-size: 22px;
     margin-bottom: 1rem;
@@ -377,4 +379,13 @@ blockquote{
     border-top-left-radius: 100px;
     border-bottom-right-radius: 40px;
     z-index: 1;
+}
+@media (max-width: 767px) {
+    .popup-sub-link__container{
+        width: 350px;
+        height: 585px;
+    }
+    .popup-sub-link_form .popup-sub__input, .popup-sub-link_form button{
+        width: 100%;
+    }
 }
