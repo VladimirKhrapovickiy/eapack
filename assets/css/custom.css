@@ -366,9 +366,10 @@ blockquote{
 .popup-sub-link_form button:hover{
     background-color:#36808b;
 }
-.popup-sub-link_form .popup-sub-link__agreement{
+.popup-sub-link__agreement{
     width: 50%;
     font-size: 10px;
+    z-index: 2;
 }
 .popup-sub-link__img{
     width: 280px;
