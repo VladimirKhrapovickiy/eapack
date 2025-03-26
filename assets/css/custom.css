@@ -388,6 +388,7 @@ blockquote{
     .popup-sub-link__container{
         width: 350px;
         height: 435px;
+        padding-top: 2.5rem;
     }
     .popup-sub-link_form .popup-sub__input, .popup-sub-link_form button{
         width: 100%;
@@ -398,7 +399,7 @@ blockquote{
     }
     .popup-sub-link__text{
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
     }
     .popup-sub-link__img{
         width: 280px;
