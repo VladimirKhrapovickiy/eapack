@@ -381,13 +381,13 @@ blockquote{
 }
 .popup-sub-link__text{
     display: inline-block;
-    width: 75%;
+    width: 70%;
     margin-bottom: 1rem;
 }
 @media (max-width: 767px) {
     .popup-sub-link__container{
         width: 350px;
-        height: 650px;
+        height: 435px;
     }
     .popup-sub-link_form .popup-sub__input, .popup-sub-link_form button{
         width: 100%;
@@ -403,6 +403,7 @@ blockquote{
     .popup-sub-link__img{
         width: 280px;
         right: initial;
+        display: none;
     }
     .popup-sub-link__agreement{
         width: 100%;
