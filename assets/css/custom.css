@@ -387,7 +387,7 @@ blockquote{
 @media (max-width: 767px) {
     .popup-sub-link__container{
         width: 350px;
-        height: 610px;
+        height: 650px;
     }
     .popup-sub-link_form .popup-sub__input, .popup-sub-link_form button{
         width: 100%;
