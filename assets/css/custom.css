@@ -313,7 +313,7 @@ blockquote{
 } 
 .popup-sub-link__title{
     font-size: 20px;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     width: 75%;
 }
 .popup-sub-link_form{
@@ -379,6 +379,11 @@ blockquote{
     bottom: 0;
     z-index: 1;
 }
+.popup-sub-link__text{
+    display: inline-block;
+    width: 75%;
+    margin-bottom: 1rem;
+}
 @media (max-width: 767px) {
     .popup-sub-link__container{
         width: 350px;
@@ -388,8 +393,12 @@ blockquote{
         width: 100%;
     }
     .popup-sub-link__title{
-        font-size: 14px;
+        font-size: 18px;
         width: 100%;
+    }
+    .popup-sub-link__text{
+        width: 100%;
+        font-size: 16px;
     }
     .popup-sub-link__img{
         width: 280px;
