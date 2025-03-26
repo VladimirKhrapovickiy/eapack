@@ -312,9 +312,9 @@ blockquote{
     cursor: pointer;
 } 
 .popup-sub-link__title{
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 1rem;
-
+    width: 75%;
 }
 .popup-sub-link_form{
     display: flex;
@@ -370,23 +370,32 @@ blockquote{
     width: 50%;
     font-size: 10px;
     z-index: 2;
+    position: relative;
 }
 .popup-sub-link__img{
-    width: 280px;
+    width: 330px;
     position: absolute;
     right: 0;
     bottom: 0;
-    background: rgba(80, 166, 179, 0.4);
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 40px;
     z-index: 1;
 }
 @media (max-width: 767px) {
     .popup-sub-link__container{
         width: 350px;
-        height: 585px;
+        height: 610px;
     }
     .popup-sub-link_form .popup-sub__input, .popup-sub-link_form button{
+        width: 100%;
+    }
+    .popup-sub-link__title{
+        font-size: 14px;
+        width: 100%;
+    }
+    .popup-sub-link__img{
+        width: 280px;
+        right: initial;
+    }
+    .popup-sub-link__agreement{
         width: 100%;
     }
 }
